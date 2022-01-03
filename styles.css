@@ -1,0 +1,330 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+    font-family: fantasy;
+  }
+  
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/HE.jpg);
+    background-size: cover;
+    background-position: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+.text h3 {
+  font-style: oblique;
+  margin-top: 250px;
+  margin-left: 100px;
+  font-size: 100px;
+  color: orange;
+
+}
+  
+.text h1 {
+  font-style: oblique;
+  margin-top: 400px;
+  margin-left: 520px;
+  margin-bottom: 200px;
+  font-size: 50px;
+  color: yellowgreen;
+}
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: monospace;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+/*----------------------------------------------------------------Biodata-----------------------------------------------------------------------------------*/
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: maroon;
+}
+
+
+header {
+    background-color: darkkhaki;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellowgreen;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+.leftcolumn.card h2 {
+  margin-bottom: 20 px;
+
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  margin-top: 20px;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  footer {
+    background-color:darkkhaki;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  /*--------------------------------------------------------------Experience------------------------------------------------------------------------------*/
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+  background-color: darkseagreen;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+.article p {
+  text-align: justify;
+  text-justify: inter-word
+
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+  /*--------------------------------------------------------------Education-------------------------------------------------------------------------------*/
+
+.column.edu {
+  float: middle;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card.edu {
+  background-color: white;
+  padding: 20px;
+}
+
+.column.edu .card.edu h1 {
+  font-size: 30px;
+}
+
+.column.edu .card.edu p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+
+/*--------------------------------------------------------------------------family-----------------------------------------------------------------------*/
+.column.edu .card.edu .family.text  {
+  text-align: center;
+}
+}
+.column.edu .card.edu .happy  {
+  text-align: center;
+}
+.column.edu .card.edu .birthday  {
+  text-align: center;
+}
+.column.edu .card.edu .june  {
+  text-align: center;
+}
+.column.edu .card.edu .fiance{
+  text-align: center;
+}
+.column.edu .card.edu .sister  {
+  text-align: center;
+}
+.column.edu .card.edu .june  {
+  text-align: center;
+}
+
+
+/*--------------------------------------------------------------------------gallery----------------------------------------------------------------------*/
+.container h1 { 
+  font-family: 'montserrat', Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  overflow-x: hidden;
+  color: white;
+  text-align: center;
+}
+  
+/*-------------------------------------------------------------------------contact------------------------------------------------------------------------*/
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.contact-section{
+  background: url(hehe.jpg) no-repeat center;
+  background-size: cover;
+  padding: 40px 0;
+}
+.contact-section h1{
+  text-align: center;
+  color: maroon;
+}
+.border{
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #2980b9;
+}
