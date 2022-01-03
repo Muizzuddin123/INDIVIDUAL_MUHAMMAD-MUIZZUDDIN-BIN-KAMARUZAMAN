@@ -279,14 +279,10 @@ background-attachment: fixed;
   padding: 0;
   font-family: "montserrat",sans-serif;
 }
-.contact-section{
-  background: url(hehe.jpg) no-repeat center;
-  background-size: cover;
-  padding: 40px 0;
-}
+
 .contact-section h1{
   text-align: center;
-  color: maroon;
+  color: white;
 }
 .border{
   width: 100px;
