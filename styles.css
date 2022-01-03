@@ -265,6 +265,12 @@ img {
   color: white;
   text-align: center;
 }
+body{
+background-size: cover;
+background-image: url('images/maroon.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
   
 /*-------------------------------------------------------------------------contact------------------------------------------------------------------------*/
 
